@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class rks {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		int a = scan.nextInt();
+		for(int i=0;i<a;i++)
+		{
+			int b = a-i;
+			for (int y = 0 ;y<b-1;y++)
+					System.out.print(" ");
+			for(int y = 0;y<=i;y++)
+					System.out.print("*");
+			
+			System.out.println();
+		}
+}
+}
